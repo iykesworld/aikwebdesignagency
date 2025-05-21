@@ -231,8 +231,10 @@
         flex-direction: column;
         gap: 20px;
     }
-}
-@media (max-width:391px) {
+    .about-footer-right{
+        width: 100%;
+        gap: 10px;
+    }
     .about-footer-right-wrapper p{
         font-size: 16px;
     }
