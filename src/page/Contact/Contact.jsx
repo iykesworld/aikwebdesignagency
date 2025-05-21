@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Contact.css'
 import indentIcon from '../../assets/indent-icon.png'
 import lineIcon from '../../assets/line-icon.png'
@@ -49,30 +49,30 @@ const lineList = [
 ]
 
 const Contact = () => {
-  const [result, setResult] = useState("");
+  // const [result, setResult] = useState("");
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
+  // const onSubmit = async (event) => {
+  //   event.preventDefault();
+  //   setResult("Sending....");
+  //   const formData = new FormData(event.target);
 
-    formData.append("access_key", "b437c21f-f80a-424b-b88a-cf4e4387ecff");
+  //   formData.append("access_key", "b437c21f-f80a-424b-b88a-cf4e4387ecff");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
+  //   const response = await fetch("https://api.web3forms.com/submit", {
+  //     method: "POST",
+  //     body: formData
+  //   });
 
-    const data = await response.json();
+  //   const data = await response.json();
 
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
-  };
+  //   if (data.success) {
+  //     setResult("Form Submitted Successfully");
+  //     event.target.reset();
+  //   } else {
+  //     console.log("Error", data);
+  //     setResult(data.message);
+  //   }
+  // };
   return (
     <div className='contact' id='contact'>
       <div className="contact-top">
