@@ -163,6 +163,7 @@
     }
     .contact-benefist{
         width: 100%;
+        gap: 30px;
     }
     .contact-form{
         position: relative;
@@ -193,5 +194,12 @@
         align-items: center;
         justify-content: space-between;
         width: 100%;
+    }
+    .contact-benefit-wrapper img{
+        width: 20px;
+        height: 20px;
+    }
+    .contact-benefit-wrapper p{
+        font-size: 20px;
     }
 }

@@ -7,7 +7,7 @@ const Hero = () => {
     <section className='hero'>
         <div className='hero-left'>
             <h1>Design That Speaks. Solutions That Work.</h1>
-            <p>We craft high-converting websites that blend beauty with functionality.</p>
+            <p>We craft high converting websites that blend beauty with functionality.</p>
             <a href="#contact">Start a Project</a>
         </div>
         <div className="hero-right">

@@ -10,7 +10,7 @@ import seoImage from '../../assets/seo-logo.png'
 const aboutFooter = [
   {
     imgUrl: fastImage,
-    ttitle: "Fast Deliver"
+    ttitle: "Fast Delivery"
   },
   {
     imgUrl: customImage,

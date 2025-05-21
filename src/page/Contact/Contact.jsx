@@ -81,7 +81,7 @@ const Contact = () => {
         for Comprehensive IT</h1>
       </div>
       <div className="contact-middle">
-        <p className='contact-middle-text'>We’re happy to answer any questions you may have and 
+        <p className='contact-middle-text'>We’re happy to answer any question you may have and 
         help you determine which of our services best fit your needs.</p>
         <h4 className='contact-middle-email'>Email us: aikdesignlab@gmail.com</h4>
         <h4 className='contact-middle-subheading'>Your benefits:</h4>
